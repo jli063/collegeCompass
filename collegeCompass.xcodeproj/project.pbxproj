@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EDDB5D22B190B800CEEA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB5C22B190B800CEEA16 /* AppDelegate.swift */; };
+		18EDDB6222B190B800CEEA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDB6022B190B800CEEA16 /* Main.storyboard */; };
+		18EDDB6522B190B800CEEA16 /* collegeCompass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB6322B190B800CEEA16 /* collegeCompass.xcdatamodeld */; };
+		18EDDB6722B190BA00CEEA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDB6622B190BA00CEEA16 /* Assets.xcassets */; };
+		18EDDB6A22B190BA00CEEA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDB6822B190BA00CEEA16 /* LaunchScreen.storyboard */; };
+		18EDDB7222B1921500CEEA16 /* ProgramTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB7122B1921500CEEA16 /* ProgramTableViewController.swift */; };
+		18EDDB7422B2ABAD00CEEA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB7322B2ABAD00CEEA16 /* ViewController.swift */; };
+		18EDDB7622B2CDB600CEEA16 /* SAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB7522B2CDB600CEEA16 /* SAButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EDDB5922B190B800CEEA16 /* collegeCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collegeCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EDDB5C22B190B800CEEA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EDDB6122B190B800CEEA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EDDB6422B190B800CEEA16 /* collegeCompass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = collegeCompass.xcdatamodel; sourceTree = "<group>"; };
+		18EDDB6622B190BA00CEEA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EDDB6922B190BA00CEEA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EDDB6B22B190BA00CEEA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EDDB7122B1921500CEEA16 /* ProgramTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramTableViewController.swift; sourceTree = "<group>"; };
+		18EDDB7322B2ABAD00CEEA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EDDB7522B2CDB600CEEA16 /* SAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EDDB5622B190B800CEEA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EDDB5022B190B800CEEA16 = {
+			isa = PBXGroup;
+			children = (
+				18EDDB5B22B190B800CEEA16 /* collegeCompass */,
+				18EDDB5A22B190B800CEEA16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EDDB5A22B190B800CEEA16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EDDB5922B190B800CEEA16 /* collegeCompass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EDDB5B22B190B800CEEA16 /* collegeCompass */ = {
+			isa = PBXGroup;
+			children = (
+				18EDDB5C22B190B800CEEA16 /* AppDelegate.swift */,
+				18EDDB7322B2ABAD00CEEA16 /* ViewController.swift */,
+				18EDDB7122B1921500CEEA16 /* ProgramTableViewController.swift */,
+				18EDDB6022B190B800CEEA16 /* Main.storyboard */,
+				18EDDB7522B2CDB600CEEA16 /* SAButton.swift */,
+				18EDDB6622B190BA00CEEA16 /* Assets.xcassets */,
+				18EDDB6822B190BA00CEEA16 /* LaunchScreen.storyboard */,
+				18EDDB6B22B190BA00CEEA16 /* Info.plist */,
+				18EDDB6322B190B800CEEA16 /* collegeCompass.xcdatamodeld */,
+			);
+			path = collegeCompass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EDDB5822B190B800CEEA16 /* collegeCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EDDB6E22B190BA00CEEA16 /* Build configuration list for PBXNativeTarget "collegeCompass" */;
+			buildPhases = (
+				18EDDB5522B190B800CEEA16 /* Sources */,
+				18EDDB5622B190B800CEEA16 /* Frameworks */,
+				18EDDB5722B190B800CEEA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = collegeCompass;
+			productName = collegeCompass;
+			productReference = 18EDDB5922B190B800CEEA16 /* collegeCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EDDB5122B190B800CEEA16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18EDDB5822B190B800CEEA16 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18EDDB5422B190B800CEEA16 /* Build configuration list for PBXProject "collegeCompass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EDDB5022B190B800CEEA16;
+			productRefGroup = 18EDDB5A22B190B800CEEA16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EDDB5822B190B800CEEA16 /* collegeCompass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EDDB5722B190B800CEEA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EDDB6A22B190BA00CEEA16 /* LaunchScreen.storyboard in Resources */,
+				18EDDB6722B190BA00CEEA16 /* Assets.xcassets in Resources */,
+				18EDDB6222B190B800CEEA16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EDDB5522B190B800CEEA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EDDB7222B1921500CEEA16 /* ProgramTableViewController.swift in Sources */,
+				18EDDB6522B190B800CEEA16 /* collegeCompass.xcdatamodeld in Sources */,
+				18EDDB7422B2ABAD00CEEA16 /* ViewController.swift in Sources */,
+				18EDDB5D22B190B800CEEA16 /* AppDelegate.swift in Sources */,
+				18EDDB7622B2CDB600CEEA16 /* SAButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EDDB6022B190B800CEEA16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EDDB6122B190B800CEEA16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EDDB6822B190BA00CEEA16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EDDB6922B190BA00CEEA16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EDDB6C22B190BA00CEEA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EDDB6D22B190BA00CEEA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EDDB6F22B190BA00CEEA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = collegeCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jessica.collegeCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EDDB7022B190BA00CEEA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = collegeCompass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Jessica.collegeCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EDDB5422B190B800CEEA16 /* Build configuration list for PBXProject "collegeCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EDDB6C22B190BA00CEEA16 /* Debug */,
+				18EDDB6D22B190BA00CEEA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EDDB6E22B190BA00CEEA16 /* Build configuration list for PBXNativeTarget "collegeCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EDDB6F22B190BA00CEEA16 /* Debug */,
+				18EDDB7022B190BA00CEEA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18EDDB6322B190B800CEEA16 /* collegeCompass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18EDDB6422B190B800CEEA16 /* collegeCompass.xcdatamodel */,
+			);
+			currentVersion = 18EDDB6422B190B800CEEA16 /* collegeCompass.xcdatamodel */;
+			path = collegeCompass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18EDDB5122B190B800CEEA16 /* Project object */;
+}
