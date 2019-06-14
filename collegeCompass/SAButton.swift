@@ -18,8 +18,8 @@ class SAButton: UIButton {
         setupButton()
     }
     private func setupButton() {
-        setTitleColor(.white, for: .normal)
-        backgroundColor = UIColor.blue
+        setTitleColor(.black, for: .normal)
+        backgroundColor = UIColor.white
         titleLabel?.font = .boldSystemFont(ofSize: 20)
         layer.cornerRadius = frame.size.height / 2
     }
